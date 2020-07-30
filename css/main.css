@@ -446,13 +446,13 @@ nav > a > h1 {
 
 /* NAVIGATION
 ============================================== */
+.navbar {
+  padding: 0 8vw;
+}
+
 sup {
   font-size: small;
   vertical-align: super;
-}
-
-.navbar {
-  padding: 0 8vw;
 }
 
 .navbar-toggler {
@@ -472,6 +472,12 @@ sup {
   background-repeat: no-repeat;
   background-size: cover;
   height: 27vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: 17vh;
+  }
 }
 
 /* USER
