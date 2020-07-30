@@ -1,0 +1,213 @@
+/* RESET
+============================================== */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* TYPOGRAPHY
+============================================== */
+nav > a > h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.user, .main {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVIGATION
+============================================== */
+sup {
+  font-size: small;
+  vertical-align: super;
+}
+
+.navbar {
+  padding: 0 8vw;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler a {
+  color: black;
+  text-decoration: none;
+}
+
+/* BANNER
+============================================== */
+.banner {
+  background-image: url("../images/image-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 27vh;
+}
+
+/* USER
+============================================== */
+.user {
+  padding: 2vh 8vw;
+  border-bottom: 1px solid gainsboro;
+}
+
+.user__card {
+  width: 300px;
+}
+
+.user__card-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user__card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user__card-subtitle {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
+
+.user__button-message {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 10px 15px;
+  background-color: skyblue;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.user__button-message:hover {
+  background-color: lightblue;
+}
+
+.user__button-message:focus {
+  background-color: gray;
+  outline: none;
+}
+
+.user__button-follow {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 10px 15px;
+  background-color: coral;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.user__button-follow:hover {
+  background-color: lightcoral;
+}
+
+.user__button-follow:focus {
+  background-color: gray;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .user {
+    border-bottom: none;
+  }
+  .user__card {
+    width: 300px;
+    text-align: center;
+  }
+  .user__card-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .user__card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .user__card-subtitle {
+    font-size: 16px;
+    color: gray;
+    margin: 0;
+  }
+}
+
+/* MAIN
+============================================== */
+.main {
+  padding: 6vh 8vw;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.main__content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__content-card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main__content-card img {
+  height: 150px;
+}
+
+.main__content-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main__content-card p {
+  font-size: 14px;
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    text-align: center;
+  }
+  .main-title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .main__content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main__content-card {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+    text-align: left;
+  }
+  .main__content-card img {
+    height: 200px;
+  }
+  .main__content-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .main__content-card p {
+    font-size: 18px;
+    color: gray;
+  }
+}
+/*# sourceMappingURL=main.css.map */
